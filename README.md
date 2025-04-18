@@ -1,75 +1,77 @@
 # BabelLM
 
-BabelLM is a playful app that lets users explore how the same AI model rates questions across different languages. Users can predict language rankings and watch an animated "flag race" reveal the actual ratings.
+BabelLM is an interactive web application that explores how large language models (LLMs) respond differently to the same question across various languages. It's a fascinating experiment in understanding AI behavior and cultural bias in language models.
 
-## Features
+## 🎯 Purpose
 
-- Input or edit questions to ask the AI
-- Predict rankings for translations in French, Spanish, and German
-- Watch an animated flag race showing actual ratings
-- Share winning results when predictions are correct
+The application allows users to:
+1. See a question translated into multiple languages
+2. Predict how an AI model would rank these translations
+3. Compare their predictions with actual AI model responses
+4. Share their results and insights
 
-## Getting Started
+## 🚀 Features
 
-### Prerequisites
+- **Interactive Translation Ranking**: Drag and drop interface to predict AI responses
+- **Multi-language Support**: Questions translated into various languages
+- **Visual Results**: Animated score reveals with flag icons
+- **Shareable Results**: Easy sharing of your predictions and results
+- **Beautiful UI**: Modern, responsive design with smooth animations
 
-- Node.js 18.x or later
-- npm or yarn package manager
+## 🛠️ Technical Stack
 
-### Installation
+- **Frontend**: Next.js, React, TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Drag and Drop**: @hello-pangea/dnd
+- **Icons**: Flag Icons from flag-icons package
+- **Deployment**: Vercel
+
+## 📦 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/babellm.git
-cd babellm
+git clone https://github.com/YOUR_USERNAME/BabelLM.git
+cd BabelLM
 ```
 
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
-3. Start the development server:
+3. Create a `.env` file with your OpenAI API key:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+4. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+## 🔧 Configuration
 
-## Development
+The application uses several JSON files for configuration:
 
-The app is built with:
-- Next.js 14
-- React 18
-- TypeScript
-- Tailwind CSS
-- Framer Motion for animations
+- `questions.json`: Contains the questions to be translated
+- `translations.json`: Stores translations for each question
+- `scores.json`: Contains pre-computed AI model scores for each translation
 
-### Project Structure
+## 🌐 Deployment
 
-```
-src/
-  ├── app/
-  │   ├── components/
-  │   │   ├── PredictionScreen.tsx
-  │   │   └── ResultsScreen.tsx
-  │   ├── layout.tsx
-  │   ├── page.tsx
-  │   └── globals.css
-  └── ...
-```
+The application is designed to be deployed on Vercel. See [deployment.md](docs/deployment.md) for detailed deployment instructions.
 
-## Future Enhancements
+## 🤝 Contributing
 
-- Integration with OpenAI API for real-time language ratings
-- Additional languages and translation options
-- User accounts and rating history
-- Social sharing features
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Flag icons provided by [flag-icons](https://github.com/lipis/flag-icons)
+- Built with [Next.js](https://nextjs.org/)
+- Deployed on [Vercel](https://vercel.com) 
