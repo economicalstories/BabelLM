@@ -56,12 +56,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .logo-container img {
   max-width: 100%;
   height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block;
 }
 
 .brand-title {

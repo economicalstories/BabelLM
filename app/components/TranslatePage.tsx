@@ -7,7 +7,10 @@ import Image from 'next/image';
 import { languages, type Language, type LanguageCode } from '../utils/languages';
 import questionsData from '../data/questions.json';
 import translationsData from '../data/translations.json';
-import { motion } from 'framer-motion';
+import { motion, HTMLMotionProps } from 'framer-motion';
+
+// Add proper type for motion components
+const MotionDiv = motion.div as React.FC<HTMLMotionProps<"div"> & { className?: string }>;
 
 interface Translation {
   id: string;
@@ -136,22 +139,7 @@ export default function TranslatePage() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <main className="flex flex-col items-center min-h-screen p-4 pt-8">
         <div className="max-w-2xl w-full text-center">
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="logo-container mb-12"
-          >
-            <Image
-              src="/BabeLMLogo_large_transparent.png"
-              alt="BabelLM Logo"
-              width={200}
-              height={80}
-              priority
-              style={{ objectFit: 'contain' }}
-            />
-          </motion.div>
-
-          <motion.div
+          <MotionDiv
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
@@ -162,7 +150,7 @@ export default function TranslatePage() {
             <p className="text-lg text-gray-500 mt-2">
               Predict the order, then see if the model agrees.
             </p>
-          </motion.div>
+          </MotionDiv>
 
           <DragDropContext onDragEnd={handleDragEnd}>
             <Droppable droppableId="translations">
@@ -217,7 +205,7 @@ export default function TranslatePage() {
             </Droppable>
           </DragDropContext>
 
-          <motion.div
+          <MotionDiv
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
@@ -236,7 +224,7 @@ export default function TranslatePage() {
             >
               {isLoading ? 'Analyzing...' : 'Ask the LLM'}
             </button>
-          </motion.div>
+          </MotionDiv>
         </div>
       </main>
     </div>

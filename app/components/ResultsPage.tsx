@@ -5,7 +5,7 @@ import Image from 'next/image';
 import confetti from 'canvas-confetti';
 import ShareModal from './ShareModal';
 import scoresData from '../data/scores.json';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, HTMLMotionProps } from 'framer-motion';
 
 interface ScoreData {
   score: number;
@@ -37,6 +37,13 @@ interface Result {
 
 type ScoreReveals = Record<string, boolean>;
 type BarWidths = Record<string, number>;
+
+// Add this type definition
+type MotionDivProps = HTMLMotionProps<"div">;
+
+// Add proper type for motion components
+const MotionDiv = motion.div as React.FC<HTMLMotionProps<"div"> & { className?: string }>;
+const MotionSpan = motion.span as React.FC<HTMLMotionProps<"span"> & { className?: string }>;
 
 export default function ResultsPage() {
   const [results, setResults] = useState<Result[]>([]);
@@ -178,7 +185,7 @@ export default function ResultsPage() {
     try {
       const text = `I correctly predicted how an AI would respond to "${question}" in different languages!\n\n` +
         results.map(r => `${r.flagCode} ${r.text} (${r.score.toFixed(1)})`).join('\n') +
-        '\n\nTry it yourself at babellm.xyz';
+        '\n\nTry it yourself at https://babel-lm.vercel.app';
       
       setShareText(text);
       await navigator.clipboard.writeText(text);
@@ -195,85 +202,92 @@ export default function ResultsPage() {
   };
 
   return (
-    <div className="mobile-container">
-      <div className="results-content">
-        <div className="logo-container">
-          <Image
-            src="/BabeLMLogo_large_transparent.png"
-            alt="BabelLM Logo"
-            width={300}
-            height={120}
-            priority
-            style={{ objectFit: 'contain' }}
-          />
-        </div>
-
-        {feedback && (
-          <div className="feedback-text">{feedback}</div>
-        )}
-
-        <div className="results-stack">
-          <AnimatePresence>
-            {results.slice(0, revealedCount).map((result, index) => (
-              <motion.div
-                key={result.languageCode}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="result-card"
-              >
-                <div className="flag-container">
-                  <Image
-                    src={`/flags/${result.flagCode.toLowerCase()}.svg`}
-                    alt={`${result.languageCode} flag`}
-                    width={32}
-                    height={24}
-                    className="flag-icon"
-                  />
-                </div>
-                <span className="translation-text">{result.text}</span>
-                <AnimatePresence>
-                  {scoreReveals[result.languageCode] && (
-                    <motion.span
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ duration: 0.3 }}
-                      className="score"
-                    >
-                      {result.score.toFixed(1)}
-                    </motion.span>
-                  )}
-                </AnimatePresence>
-                <div 
-                  className="score-bar" 
-                  style={{ width: `${barWidths[result.languageCode]}%` }}
-                />
-              </motion.div>
-            ))}
-          </AnimatePresence>
-        </div>
-
-        {allLoaded && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col">
+      <div className="flex-1" style={{ padding: '1rem', background: 'transparent' }}>
+        <div className="results-content" style={{ gap: '1rem' }}>
+          <MotionDiv
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="action-buttons"
+            style={{ margin: 0, padding: 0, display: 'flex', justifyContent: 'center', height: 'auto' }}
           >
-            <button
-              onClick={handleShare}
-              disabled={isGeneratingShare || !perfectMatch}
-              className={`share-button ${isGeneratingShare ? 'loading' : ''} ${!perfectMatch ? 'disabled' : ''}`}
+            <Image
+              src="/BabeLMLogo_large_transparent.png"
+              alt="BabelLM Logo"
+              width={250}
+              height={100}
+              priority
+              style={{ objectFit: 'contain', margin: 0, padding: 0, display: 'block' }}
+            />
+          </MotionDiv>
+
+          {feedback && (
+            <div className="feedback-text" style={{ margin: '0.5rem 0' }}>{feedback}</div>
+          )}
+
+          <div className="results-stack" style={{ marginTop: '0.5rem', background: 'transparent' }}>
+            <AnimatePresence>
+              {results.slice(0, revealedCount).map((result, index) => (
+                <MotionDiv
+                  key={result.languageCode}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  className="result-card"
+                  style={{ background: 'white' }}
+                >
+                  <div className="flag-container">
+                    <Image
+                      src={`/flags/${result.flagCode.toLowerCase()}.svg`}
+                      alt={`${result.languageCode} flag`}
+                      width={32}
+                      height={24}
+                      className="flag-icon"
+                    />
+                  </div>
+                  <span className="translation-text">{result.text}</span>
+                  <AnimatePresence>
+                    {scoreReveals[result.languageCode] && (
+                      <MotionSpan
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.3 }}
+                        className="score"
+                      >
+                        {result.score.toFixed(1)}
+                      </MotionSpan>
+                    )}
+                  </AnimatePresence>
+                  <div 
+                    className="score-bar" 
+                    style={{ width: `${barWidths[result.languageCode]}%` }}
+                  />
+                </MotionDiv>
+              ))}
+            </AnimatePresence>
+          </div>
+
+          {allLoaded && (
+            <MotionDiv
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="action-buttons"
             >
-              {isGeneratingShare ? 'Generating...' : perfectMatch ? 'Share my results' : 'Predictions incorrect'}
-            </button>
-            <button
-              onClick={() => window.location.href = '/'}
-              className="try-another-button"
-            >
-              Try another
-            </button>
-          </motion.div>
-        )}
+              <button
+                onClick={handleShare}
+                disabled={isGeneratingShare || !perfectMatch}
+                className={`share-button ${isGeneratingShare ? 'loading' : ''} ${!perfectMatch ? 'disabled' : ''}`}
+              >
+                {isGeneratingShare ? 'Generating...' : perfectMatch ? 'Share my results' : 'Predictions incorrect'}
+              </button>
+              <button
+                onClick={() => window.location.href = '/'}
+                className="try-another-button"
+              >
+                Try another
+              </button>
+            </MotionDiv>
+          )}
+        </div>
       </div>
 
       <ShareModal
