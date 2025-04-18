@@ -183,9 +183,9 @@ export default function ResultsPage() {
     setIsGeneratingShare(true);
     setShareError(null);
     try {
-      const text = `I correctly predicted how an AI would respond to "${question}" in different languages!\n\n` +
-        results.map(r => `${r.flagCode} ${r.text} (${r.score.toFixed(1)})`).join('\n') +
-        '\n\nTry it yourself at https://babel-lm.vercel.app';
+      const text = results.map(r => `${r.text}`).join('\n') + `\n\nI discovered something fascinating about AI! 🤖\n` +
+        `When asked a question in different languages, the AI gave completely different responses.` +
+        `\n\nCan you guess how the AI will respond? Try it at https://babel-lm.vercel.app`;
       
       setShareText(text);
       await navigator.clipboard.writeText(text);
@@ -203,8 +203,8 @@ export default function ResultsPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col">
-      <div className="flex-1" style={{ padding: '1rem', background: 'transparent' }}>
-        <div className="results-content" style={{ gap: '1rem' }}>
+      <main className="flex flex-col items-center min-h-screen p-4">
+        <div className="max-w-2xl w-full text-center">
           <MotionDiv
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -288,7 +288,7 @@ export default function ResultsPage() {
             </MotionDiv>
           )}
         </div>
-      </div>
+      </main>
 
       <ShareModal
         isOpen={isShareModalOpen}

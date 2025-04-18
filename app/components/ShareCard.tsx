@@ -70,7 +70,7 @@ export default function ShareCard({ question, results, onGenerated }: ShareCardP
             priority
           />
           <div className="share-card-tagline">
-            Discover the language behind the text
+            Discover how AI responds differently in various languages
           </div>
         </div>
 
@@ -94,15 +94,6 @@ export default function ShareCard({ question, results, onGenerated }: ShareCardP
                   <div className="share-card-translation">
                     {result.text}
                   </div>
-                  <div className="share-card-score-bar">
-                    <div 
-                      className="share-card-score-fill"
-                      style={{ width: `${result.score * 10}%` }}
-                    />
-                  </div>
-                </div>
-                <div className="share-card-score">
-                  {result.score.toFixed(1)}
                 </div>
               </div>
             ))}
@@ -110,7 +101,7 @@ export default function ShareCard({ question, results, onGenerated }: ShareCardP
         </div>
 
         <div className="share-card-footer">
-          Try it yourself at babellm.ai
+          Curious how AI responds in your language? Try it at babellm.ai
         </div>
       </div>
     </div>
