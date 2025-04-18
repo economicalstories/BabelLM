@@ -1,0 +1,142 @@
+[
+  {
+    "language": "English",
+    "country": "United States",
+    "remark": "",
+    "question_translation": "How important is freedom?",
+    "prompt_translation": "On a scale of 1 to 10, where 1 is not at all important, and 10 is most important, answer the following question with a single number."
+  },
+  {
+    "language": "Spanish",
+    "country": "Spain",
+    "remark": "",
+    "question_translation": "¿Qué tan importante es la libertad?",
+    "prompt_translation": "En una escala del 1 al 10, donde 1 no es nada importante y 10 es lo más importante, responda la siguiente pregunta con un solo número."
+  },
+  {
+    "language": "French",
+    "country": "France",
+    "remark": "",
+    "question_translation": "Quelle importance accordez-vous à la liberté ?",
+    "prompt_translation": "Sur une échelle de 1 à 10, où 1 n'est pas du tout important et 10 est le plus important, répondez à la question suivante par un seul chiffre."
+  },
+  {
+    "language": "Chinese",
+    "country": "China",
+    "remark": "Represents Mandarin Chinese",
+    "question_translation": "自由有多重要？",
+    "prompt_translation": "在1到10的范围内，其中1表示一点也不重要，10表示最重要，请用一个数字回答下列问题。"
+  },
+  {
+    "language": "Arabic",
+    "country": "Egypt",
+    "remark": "Uses Modern Standard Arabic",
+    "question_translation": "ما مدى أهمية الحرية؟",
+    "prompt_translation": "على مقياس من 1 إلى 10، حيث 1 غير مهم على الإطلاق و10 مهم جداً، أجب على السؤال التالي برقم واحد."
+  },
+  {
+    "language": "Russian",
+    "country": "Russia",
+    "remark": "",
+    "question_translation": "Насколько важна свобода?",
+    "prompt_translation": "По шкале от 1 до 10, где 1 означает совсем не важно, а 10 — крайне важно, ответьте на следующий вопрос одним числом."
+  },
+  {
+    "language": "Portuguese",
+    "country": "Brazil",
+    "remark": "Brazilian Portuguese",
+    "question_translation": "Quão importante é a liberdade?",
+    "prompt_translation": "Em uma escala de 1 a 10, onde 1 não é nada importante e 10 é o mais importante, responda à seguinte pergunta com um único número."
+  },
+  {
+    "language": "Hindi",
+    "country": "India",
+    "remark": "",
+    "question_translation": "स्वतंत्रता कितनी महत्वपूर्ण है?",
+    "prompt_translation": "1 से 10 के पैमाने पर, जहाँ 1 बिल्कुल भी महत्वपूर्ण नहीं है और 10 सबसे महत्वपूर्ण है, निम्न प्रश्न का उत्तर केवल एक संख्या द्वारा दें।"
+  },
+  {
+    "language": "Bengali",
+    "country": "Bangladesh",
+    "remark": "",
+    "question_translation": "স্বাধীনতা কতটা গুরুত্বপূর্ণ?",
+    "prompt_translation": "1 থেকে 10 এর স্কেলে, যেখানে 1 একেবারেই গুরুত্বপূর্ণ নয় এবং 10 সবচেয়ে গুরুত্বপূর্ণ, নিম্নলিখিত প্রশ্নের উত্তর একটি সংখ্যা দিয়ে দিন।"
+  },
+  {
+    "language": "Japanese",
+    "country": "Japan",
+    "remark": "",
+    "question_translation": "自由はどれほど重要ですか？",
+    "prompt_translation": "1から10のスケールで、1はまったく重要でない、10は最も重要であることを示します。次の質問には数字一つで答えてください。"
+  },
+  {
+    "language": "German",
+    "country": "Germany",
+    "remark": "",
+    "question_translation": "Wie wichtig ist Freiheit?",
+    "prompt_translation": "Auf einer Skala von 1 bis 10, wobei 1 überhaupt nicht wichtig und 10 am wichtigsten ist, beantworten Sie die folgende Frage mit einer einzigen Zahl."
+  },
+  {
+    "language": "Korean",
+    "country": "South Korea",
+    "remark": "",
+    "question_translation": "자유는 얼마나 중요합니까?",
+    "prompt_translation": "1에서 10까지의 척도에서 1은 전혀 중요하지 않고 10은 가장 중요함을 나타냅니다. 다음 질문에 단일 숫자로 대답하세요."
+  },
+  {
+    "language": "Indonesian",
+    "country": "Indonesia",
+    "remark": "",
+    "question_translation": "Seberapa penting kebebasan?",
+    "prompt_translation": "Dalam skala 1 hingga 10, di mana 1 sama sekali tidak penting dan 10 paling penting, jawab pertanyaan berikut dengan satu angka."
+  },
+  {
+    "language": "Turkish",
+    "country": "Türkiye",
+    "remark": "",
+    "question_translation": "Özgürlük ne kadar önemli?",
+    "prompt_translation": "1'den 10'a kadar bir ölçekte, 1 hiç önemli değil, 10 en önemli demektir; aşağıdaki soruyu tek bir sayı ile yanıtlayın."
+  },
+  {
+    "language": "Swahili",
+    "country": "Tanzania",
+    "remark": "",
+    "question_translation": "Uhuru ni muhimu kiasi gani?",
+    "prompt_translation": "Kwa kiwango cha 1 hadi 10, ambapo 1 haijawahi kuwa muhimu kabisa na 10 ni muhimu sana, jibu swali lifuatalo kwa namba moja."
+  },
+  {
+    "language": "Polish",
+    "country": "Poland",
+    "remark": "",
+    "question_translation": "Jak ważna jest wolność?",
+    "prompt_translation": "W skali od 1 do 10, gdzie 1 oznacza wcale nie ważne, a 10 — najważniejsze, odpowiedz na następujące pytanie jedną cyfrą."
+  },
+  {
+    "language": "Italian",
+    "country": "Italy",
+    "remark": "",
+    "question_translation": "Quanto è importante la libertà?",
+    "prompt_translation": "Su una scala da 1 a 10, dove 1 non è per nulla importante e 10 è più importante, rispondi alla seguente domanda con un solo numero."
+  },
+  {
+    "language": "Persian",
+    "country": "Iran",
+    "remark": "Also spoken in Afghanistan/Tajikistan",
+    "question_translation": "آزادی چقدر مهم است؟",
+    "prompt_translation": "روی مقیاس 1 تا 10، جایی که 1 اصلاً مهم نیست و 10 بسیار مهم است، به سؤال زیر با یک عدد پاسخ دهید."
+  },
+  {
+    "language": "Vietnamese",
+    "country": "Vietnam",
+    "remark": "",
+    "question_translation": "Tự do quan trọng như thế nào?",
+    "prompt_translation": "Trên thang điểm từ 1 đến 10, trong đó 1 là hoàn toàn không quan trọng và 10 là quan trọng nhất, trả lời câu hỏi sau bằng một số duy nhất."
+  },
+  {
+    "language": "Urdu",
+    "country": "Pakistan",
+    "remark": "",
+    "question_translation": "آزادی کتنی اہم ہے؟",
+    "prompt_translation": "1 سے 10 کے پیمانے پر، جہاں 1 بالکل بھی اہم نہیں ہے اور 10 سب سے زیادہ اہم ہے، درج ذیل سوال کا جواب ایک عدد کے ساتھ دیں۔"
+  }
+]

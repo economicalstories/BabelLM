@@ -1,0 +1,265 @@
+  {
+  "q1": {
+    "en": {
+      "text": "How important is freedom?"
+    },
+    "es": {
+      "text": "¿Qué tan importante es la libertad?",
+      "backTranslation": "How important is liberty?"
+    },
+    "fr": {
+      "text": "Quelle importance accordez-vous à la liberté ?",
+      "backTranslation": "How important is freedom?"
+    },
+    "zh": {
+      "text": "自由有多重要？",
+      "backTranslation": "How important is freedom?"
+    },
+    "ar": {
+      "text": "ما مدى أهمية الحرية؟",
+      "backTranslation": "How important is freedom?"
+    },
+    "ru": {
+      "text": "Насколько важна свобода?",
+      "backTranslation": "How important is freedom?"
+    },
+    "pt": {
+      "text": "Quão importante é a liberdade?",
+      "backTranslation": "How important is freedom?"
+    },
+    "hi": {
+      "text": "स्वतंत्रता कितनी महत्वपूर्ण है?",
+      "backTranslation": "How important is freedom?"
+    },
+    "bn": {
+      "text": "স্বাধীনতা কতটা গুরুত্বপূর্ণ?",
+      "backTranslation": "How important is freedom?"
+    },
+    "ja": {
+      "text": "自由はどれほど重要ですか？",
+      "backTranslation": "How important is freedom?"
+    },
+    "de": {
+      "text": "Wie wichtig ist Freiheit?",
+      "backTranslation": "How important is freedom?"
+    },
+    "ko": {
+      "text": "자유는 얼마나 중요합니까?",
+      "backTranslation": "How important is freedom?"
+    },
+    "id": {
+      "text": "Seberapa penting kebebasan?",
+      "backTranslation": "How important is freedom?"
+    },
+    "tr": {
+      "text": "Özgürlük ne kadar önemli?",
+      "backTranslation": "How important is freedom?"
+    },
+    "sw": {
+      "text": "Uhuru ni muhimu kiasi gani?",
+      "backTranslation": "How important is freedom?"
+    },
+    "pl": {
+      "text": "Jak ważna jest wolność?",
+      "backTranslation": "How important is freedom?"
+    },
+    "it": {
+      "text": "Quanto è importante la libertà?",
+      "backTranslation": "How important is freedom?"
+    },
+    "fa": {
+      "text": "آزادی چقدر مهم است؟",
+      "backTranslation": "How important is freedom?"
+    },
+    "vi": {
+      "text": "Tự do quan trọng như thế nào?",
+      "backTranslation": "How important is freedom?"
+    },
+    "ur": {
+      "text": "آزادی کتنی اہم ہے؟",
+      "backTranslation": "How important is freedom?"
+    }
+  },
+  "q2": {
+    "en": {
+      "text": "How important is God in your life?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "",
+        "model": ""
+      }
+    },
+    "es": {
+      "text": "¿Qué tan importante es Dios en tu vida?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:33:23.004092",
+        "model": "gpt-4o-mini-2024-07-18"
+      }
+    },
+    "fr": {
+      "text": "Quelle est l'importance de Dieu dans votre vie ?",
+      "backTranslation": "What is the importance of God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:02.730245",
+        "model": "gpt-4"
+      }
+    },
+    "zh": {
+      "text": "你的生活中，上帝有多重要？",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:06.844466",
+        "model": "gpt-4"
+      }
+    },
+    "ar": {
+      "text": "ما مدى أهمية الله في حياتك؟",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:11.627418",
+        "model": "gpt-4"
+      }
+    },
+    "ru": {
+      "text": "Как важен Бог в вашей жизни?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:16.316870",
+        "model": "gpt-4"
+      }
+    },
+    "pt": {
+      "text": "Quão importante é Deus na sua vida?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:20.645296",
+        "model": "gpt-4"
+      }
+    },
+    "hi": {
+      "text": "आपके जीवन में भगवान कितने महत्वपूर्ण हैं?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:26.298487",
+        "model": "gpt-4"
+      }
+    },
+    "bn": {
+      "text": "আপনার জীবনে ভগবান কতটা গুরুত্বপূর্ণ?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:31.824381",
+        "model": "gpt-4"
+      }
+    },
+    "ja": {
+      "text": "あなたの人生において、神様はどれほど重要ですか？",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:37.089590",
+        "model": "gpt-4"
+      }
+    },
+    "de": {
+      "text": "Wie wichtig ist Gott in Ihrem Leben?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:41.627015",
+        "model": "gpt-4"
+      }
+    },
+    "ko": {
+      "text": "당신의 삶에서 하나님은 얼마나 중요한가요?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:45.999145",
+        "model": "gpt-4"
+      }
+    },
+    "id": {
+      "text": "Seberapa penting Tuhan dalam hidup Anda?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:49.955807",
+        "model": "gpt-4"
+      }
+    },
+    "tr": {
+      "text": "Hayatınızdaki Tanrı ne kadar önemli?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:54.328775",
+        "model": "gpt-4"
+      }
+    },
+    "sw": {
+      "text": "Ni kiasi gani Mungu ni muhimu katika maisha yako?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:34:58.708554",
+        "model": "gpt-4"
+      }
+    },
+    "pl": {
+      "text": "Jak ważny jest Bóg w twoim życiu?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:35:03.240050",
+        "model": "gpt-4"
+      }
+    },
+    "it": {
+      "text": "Quanto è importante Dio nella tua vita?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:35:07.886116",
+        "model": "gpt-4"
+      }
+    },
+    "fa": {
+      "text": "چقدر خدا در زندگی شما مهم است؟",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:35:12.708544",
+        "model": "gpt-4"
+      }
+    },
+    "vi": {
+      "text": "Thượng Đế quan trọng như thế nào trong cuộc sống của bạn?",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:35:17.884007",
+        "model": "gpt-4"
+      }
+    },
+    "ur": {
+      "text": "آپ کی زندگی میں خدا کتنا اہم ہے؟",
+      "backTranslation": "How important is God in your life?",
+      "qualityScore": 5,
+      "metadata": {
+        "timestamp": "2025-04-18T09:35:22.656262",
+        "model": "gpt-4"
+      }
+    }
+  }
+}

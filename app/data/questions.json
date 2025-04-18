@@ -1,0 +1,15 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "textEn": "How important is freedom?",
+      "category": "philosophical"
+    },
+    {
+      "id": "q2",
+      "textEn": "How important is God in your life?",
+      "category": "philosophical"
+    }
+
+  ]
+} 

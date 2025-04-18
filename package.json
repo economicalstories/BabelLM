@@ -1,0 +1,48 @@
+{
+  "name": "babellm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^18.0.1",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20.17.30",
+    "@vercel/og": "^0.6.8",
+    "autoprefixer": "^10.4.16",
+    "canvas-confetti": "^1.9.3",
+    "flag-icons": "^7.3.2",
+    "framer-motion": "^10.18.0",
+    "glob": "^9.0.0",
+    "html-to-image": "^1.11.13",
+    "html2canvas": "^1.4.1",
+    "ioredis": "^5.3.0",
+    "next": "^14.2.28",
+    "openai": "^4.95.0",
+    "postcss": "^8.4.32",
+    "puppeteer": "^22.8.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rimraf": "^4.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/html2canvas": "^0.5.35",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.2.28",
+    "postcss-preset-env": "^9.6.0"
+  },
+  "overrides": {
+    "glob": "^9.0.0",
+    "rimraf": "^4.0.0"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "en": {
+    "name": "English",
+    "nativeName": "English",
+    "countryCode": "US",
+    "direction": "ltr",
+    "prompt": "Please use this scale to indicate. 10 means 'very important' and 1 means 'not at all important.' Reply with just a number (1-10)."
+  },
+  "es": {
+    "name": "Spanish",
+    "nativeName": "Español",
+    "countryCode": "ES",
+    "direction": "ltr",
+    "prompt": "Por favor, utilice esta escala para indicar. 10 significa 'muy importante' y 1 significa 'nada importante'. Responda solo con un número (1-10)."
+  },
+  "fr": {
+    "name": "French",
+    "nativeName": "Français",
+    "countryCode": "FR",
+    "direction": "ltr",
+    "prompt": "Veuillez utiliser cette échelle pour indiquer. 10 signifie 'très important' et 1 signifie 'pas du tout important'. Répondez uniquement par un nombre (1-10)."
+  },
+  "zh": {
+    "name": "Chinese",
+    "nativeName": "中文",
+    "countryCode": "CN",
+    "direction": "ltr",
+    "prompt": "请使用此量表进行评分。10表示'非常重要'，1表示'一点也不重要'。请仅用数字（1-10）回答。"
+  },
+  "ar": {
+    "name": "Arabic",
+    "nativeName": "العربية",
+    "countryCode": "EG",
+    "direction": "rtl",
+    "prompt": "يرجى استخدام هذا المقياس للإشارة. 10 تعني 'مهم جداً' و 1 تعني 'غير مهم على الإطلاق'. أجب برقم فقط (1-10)."
+  },
+  "ru": {
+    "name": "Russian",
+    "nativeName": "Русский",
+    "countryCode": "RU",
+    "direction": "ltr",
+    "prompt": "Пожалуйста, используйте эту шкалу. 10 означает 'очень важно', а 1 означает 'совсем не важно'. Ответьте только числом (1-10)."
+  },
+  "pt": {
+    "name": "Portuguese",
+    "nativeName": "Português",
+    "countryCode": "BR",
+    "direction": "ltr",
+    "prompt": "Por favor, use esta escala para indicar. 10 significa 'muito importante' e 1 significa 'nada importante'. Responda apenas com um número (1-10)."
+  },
+  "hi": {
+    "name": "Hindi",
+    "nativeName": "हिन्दी",
+    "countryCode": "IN",
+    "direction": "ltr",
+    "prompt": "कृपया इस पैमाने का उपयोग करें। 10 का अर्थ है 'बहुत महत्वपूर्ण' और 1 का अर्थ है 'बिल्कुल भी महत्वपूर्ण नहीं'। केवल एक संख्या (1-10) के साथ उत्तर दें।"
+  },
+  "bn": {
+    "name": "Bengali",
+    "nativeName": "বাংলা",
+    "countryCode": "BD",
+    "direction": "ltr",
+    "prompt": "দয়া করে এই স্কেলটি ব্যবহার করুন। 10 মানে 'খুব গুরুত্বপূর্ণ' এবং 1 মানে 'একেবারেই গুরুত্বপূর্ণ নয়'। শুধুমাত্র একটি সংখ্যা (1-10) দিয়ে উত্তর দিন।"
+  },
+  "ja": {
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "countryCode": "JP",
+    "direction": "ltr",
+    "prompt": "この尺度を使用してください。10は「非常に重要」、1は「全く重要でない」を意味します。数字（1-10）のみで回答してください。"
+  },
+  "de": {
+    "name": "German",
+    "nativeName": "Deutsch",
+    "countryCode": "DE",
+    "direction": "ltr",
+    "prompt": "Bitte verwenden Sie diese Skala. 10 bedeutet 'sehr wichtig' und 1 bedeutet 'überhaupt nicht wichtig'. Antworten Sie nur mit einer Zahl (1-10)."
+  },
+  "ko": {
+    "name": "Korean",
+    "nativeName": "한국어",
+    "countryCode": "KR",
+    "direction": "ltr",
+    "prompt": "이 척도를 사용해 주세요. 10은 '매우 중요함', 1은 '전혀 중요하지 않음'을 의미합니다. 숫자(1-10)로만 답변해 주세요."
+  },
+  "id": {
+    "name": "Indonesian",
+    "nativeName": "Bahasa Indonesia",
+    "countryCode": "ID",
+    "direction": "ltr",
+    "prompt": "Silakan gunakan skala ini. 10 berarti 'sangat penting' dan 1 berarti 'sama sekali tidak penting'. Jawab hanya dengan angka (1-10)."
+  },
+  "tr": {
+    "name": "Turkish",
+    "nativeName": "Türkçe",
+    "countryCode": "TR",
+    "direction": "ltr",
+    "prompt": "Lütfen bu ölçeği kullanın. 10 'çok önemli', 1 'hiç önemli değil' anlamına gelir. Sadece bir sayı (1-10) ile yanıt verin."
+  },
+  "sw": {
+    "name": "Swahili",
+    "nativeName": "Kiswahili",
+    "countryCode": "TZ",
+    "direction": "ltr",
+    "prompt": "Tafadhali tumia kiwango hiki. 10 inamaanisha 'muhimu sana' na 1 inamaanisha 'haijawahi kuwa muhimu kabisa'. Jibu kwa namba moja tu (1-10)."
+  },
+  "pl": {
+    "name": "Polish",
+    "nativeName": "Polski",
+    "countryCode": "PL",
+    "direction": "ltr",
+    "prompt": "Proszę użyć tej skali. 10 oznacza 'bardzo ważne', a 1 oznacza 'wcale nie ważne'. Odpowiedz tylko liczbą (1-10)."
+  },
+  "it": {
+    "name": "Italian",
+    "nativeName": "Italiano",
+    "countryCode": "IT",
+    "direction": "ltr",
+    "prompt": "Si prega di utilizzare questa scala. 10 significa 'molto importante' e 1 significa 'per niente importante'. Rispondi solo con un numero (1-10)."
+  },
+  "fa": {
+    "name": "Persian",
+    "nativeName": "فارسی",
+    "countryCode": "IR",
+    "direction": "rtl",
+    "prompt": "لطفاً از این مقیاس استفاده کنید. 10 به معنای 'بسیار مهم' و 1 به معنای 'اصلاً مهم نیست' است. فقط با یک عدد (1-10) پاسخ دهید."
+  },
+  "vi": {
+    "name": "Vietnamese",
+    "nativeName": "Tiếng Việt",
+    "countryCode": "VN",
+    "direction": "ltr",
+    "prompt": "Vui lòng sử dụng thang điểm này. 10 có nghĩa là 'rất quan trọng' và 1 có nghĩa là 'hoàn toàn không quan trọng'. Chỉ trả lời bằng một số (1-10)."
+  },
+  "ur": {
+    "name": "Urdu",
+    "nativeName": "اردو",
+    "countryCode": "PK",
+    "direction": "rtl",
+    "prompt": "براہ کرم اس پیمانے کا استعمال کریں۔ 10 کا مطلب ہے 'بہت اہم' اور 1 کا مطلب ہے 'بالکل بھی اہم نہیں'۔ صرف ایک عدد (1-10) کے ساتھ جواب دیں۔"
+  }
+} 

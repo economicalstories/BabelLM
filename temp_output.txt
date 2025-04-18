@@ -1,0 +1,3588 @@
+
+=== OpenAI API Call ===
+Language: en
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: How important is freedom? Please use this scale to indicate. 10 means 'very important' and 1 means 'not at all important.' Reply with just a number (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "How important is freedom? Please use this scale to indicate. 10 means 'very important' and 1 means 'not at all important.' Reply with just a number (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGhdtuyM6Za1FR7yRed0kGN6g7h",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972191,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 86,
+    "total_tokens": 88,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:29:51.469660",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "How important is freedom? Please use this scale to indicate. 10 means 'very important' and 1 means 'not at all important.' Reply with just a number (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "en",
+    "response_id": "chatcmpl-BNdGhdtuyM6Za1FR7yRed0kGN6g7h",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: es
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: ¿Qué tan importante es la libertad? Por favor, utilice esta escala para indicar. 10 significa 'muy importante' y 1 significa 'nada importante'. Responda solo con un número (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "¿Qué tan importante es la libertad? Por favor, utilice esta escala para indicar. 10 significa 'muy importante' y 1 significa 'nada importante'. Responda solo con un número (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGjv38AQa6ZG2JP2EaFAjH4yUbe",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972193,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 92,
+    "total_tokens": 94,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:29:53.101366",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "¿Qué tan importante es la libertad? Por favor, utilice esta escala para indicar. 10 significa 'muy importante' y 1 significa 'nada importante'. Responda solo con un número (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "es",
+    "response_id": "chatcmpl-BNdGjv38AQa6ZG2JP2EaFAjH4yUbe",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: fr
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Quelle importance accordez-vous à la liberté ? Veuillez utiliser cette échelle pour indiquer. 10 signifie 'très important' et 1 signifie 'pas du tout important'. Répondez uniquement par un nombre (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Quelle importance accordez-vous à la liberté ? Veuillez utiliser cette échelle pour indiquer. 10 signifie 'très important' et 1 signifie 'pas du tout important'. Répondez uniquement par un nombre (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGks3Mk6dXuTy7KIqfiGeyYnTGk",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972194,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 96,
+    "total_tokens": 98,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:29:54.839159",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Quelle importance accordez-vous à la liberté ? Veuillez utiliser cette échelle pour indiquer. 10 signifie 'très important' et 1 signifie 'pas du tout important'. Répondez uniquement par un nombre (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "fr",
+    "response_id": "chatcmpl-BNdGks3Mk6dXuTy7KIqfiGeyYnTGk",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: zh
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: 自由有多重要？ 请使用此量表进行评分。10表示'非常重要'，1表示'一点也不重要'。请仅用数字（1-10）回答。
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "自由有多重要？ 请使用此量表进行评分。10表示'非常重要'，1表示'一点也不重要'。请仅用数字（1-10）回答。"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGmX0zq2VZBb6zIhFMg61OlbrcL",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972196,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 87,
+    "total_tokens": 89,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:29:56.477423",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "自由有多重要？ 请使用此量表进行评分。10表示'非常重要'，1表示'一点也不重要'。请仅用数字（1-10）回答。",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "zh",
+    "response_id": "chatcmpl-BNdGmX0zq2VZBb6zIhFMg61OlbrcL",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ar
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: ما مدى أهمية الحرية؟ يرجى استخدام هذا المقياس للإشارة. 10 تعني 'مهم جداً' و 1 تعني 'غير مهم على الإطلاق'. أجب برقم فقط (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "ما مدى أهمية الحرية؟ يرجى استخدام هذا المقياس للإشارة. 10 تعني 'مهم جداً' و 1 تعني 'غير مهم على الإطلاق'. أجب برقم فقط (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGoU4I597Mrw5XuY1gourTwu6gB",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972198,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 94,
+    "total_tokens": 96,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:29:58.013532",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "ما مدى أهمية الحرية؟ يرجى استخدام هذا المقياس للإشارة. 10 تعني 'مهم جداً' و 1 تعني 'غير مهم على الإطلاق'. أجب برقم فقط (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ar",
+    "response_id": "chatcmpl-BNdGoU4I597Mrw5XuY1gourTwu6gB",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ru
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Насколько важна свобода? Пожалуйста, используйте эту шкалу. 10 означает 'очень важно', а 1 означает 'совсем не важно'. Ответьте только числом (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Насколько важна свобода? Пожалуйста, используйте эту шкалу. 10 означает 'очень важно', а 1 означает 'совсем не важно'. Ответьте только числом (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGprhEkeR37MaezFZhW51PtjX1d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972199,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 93,
+    "total_tokens": 95,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:29:59.660318",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Насколько важна свобода? Пожалуйста, используйте эту шкалу. 10 означает 'очень важно', а 1 означает 'совсем не важно'. Ответьте только числом (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ru",
+    "response_id": "chatcmpl-BNdGprhEkeR37MaezFZhW51PtjX1d",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: pt
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Quão importante é a liberdade? Por favor, use esta escala para indicar. 10 significa 'muito importante' e 1 significa 'nada importante'. Responda apenas com um número (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Quão importante é a liberdade? Por favor, use esta escala para indicar. 10 significa 'muito importante' e 1 significa 'nada importante'. Responda apenas com um número (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGrvBF9s8sMN85QHPNdenOBJVtp",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972201,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 92,
+    "total_tokens": 94,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:01.392061",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Quão importante é a liberdade? Por favor, use esta escala para indicar. 10 significa 'muito importante' e 1 significa 'nada importante'. Responda apenas com um número (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "pt",
+    "response_id": "chatcmpl-BNdGrvBF9s8sMN85QHPNdenOBJVtp",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: hi
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: स्वतंत्रता कितनी महत्वपूर्ण है? कृपया इस पैमाने का उपयोग करें। 10 का अर्थ है 'बहुत महत्वपूर्ण' और 1 का अर्थ है 'बिल्कुल भी महत्वपूर्ण नहीं'। केवल एक संख्या (1-10) के साथ उत्तर दें।
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "स्वतंत्रता कितनी महत्वपूर्ण है? कृपया इस पैमाने का उपयोग करें। 10 का अर्थ है 'बहुत महत्वपूर्ण' और 1 का अर्थ है 'बिल्कुल भी महत्वपूर्ण नहीं'। केवल एक संख्या (1-10) के साथ उत्तर दें।"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGsEkkXW9xvXtfmogh31OmbJYNz",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972202,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 105,
+    "total_tokens": 107,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:03.136264",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "स्वतंत्रता कितनी महत्वपूर्ण है? कृपया इस पैमाने का उपयोग करें। 10 का अर्थ है 'बहुत महत्वपूर्ण' और 1 का अर्थ है 'बिल्कुल भी महत्वपूर्ण नहीं'। केवल एक संख्या (1-10) के साथ उत्तर दें।",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "hi",
+    "response_id": "chatcmpl-BNdGsEkkXW9xvXtfmogh31OmbJYNz",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: bn
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: স্বাধীনতা কতটা গুরুত্বপূর্ণ? দয়া করে এই স্কেলটি ব্যবহার করুন। 10 মানে 'খুব গুরুত্বপূর্ণ' এবং 1 মানে 'একেবারেই গুরুত্বপূর্ণ নয়'। শুধুমাত্র একটি সংখ্যা (1-10) দিয়ে উত্তর দিন।
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "স্বাধীনতা কতটা গুরুত্বপূর্ণ? দয়া করে এই স্কেলটি ব্যবহার করুন। 10 মানে 'খুব গুরুত্বপূর্ণ' এবং 1 মানে 'একেবারেই গুরুত্বপূর্ণ নয়'। শুধুমাত্র একটি সংখ্যা (1-10) দিয়ে উত্তর দিন।"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGuZBdJ0dALJlyqIYcQ5OLE1cL3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972204,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 101,
+    "total_tokens": 103,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:04.672180",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "স্বাধীনতা কতটা গুরুত্বপূর্ণ? দয়া করে এই স্কেলটি ব্যবহার করুন। 10 মানে 'খুব গুরুত্বপূর্ণ' এবং 1 মানে 'একেবারেই গুরুত্বপূর্ণ নয়'। শুধুমাত্র একটি সংখ্যা (1-10) দিয়ে উত্তর দিন।",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "bn",
+    "response_id": "chatcmpl-BNdGuZBdJ0dALJlyqIYcQ5OLE1cL3",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ja
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: 自由はどれほど重要ですか？ この尺度を使用してください。10は「非常に重要」、1は「全く重要でない」を意味します。数字（1-10）のみで回答してください。
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "自由はどれほど重要ですか？ この尺度を使用してください。10は「非常に重要」、1は「全く重要でない」を意味します。数字（1-10）のみで回答してください。"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGwZBIXB4cloWgzdbHOHbojhyfH",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972206,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 92,
+    "total_tokens": 94,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:06.308732",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "自由はどれほど重要ですか？ この尺度を使用してください。10は「非常に重要」、1は「全く重要でない」を意味します。数字（1-10）のみで回答してください。",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ja",
+    "response_id": "chatcmpl-BNdGwZBIXB4cloWgzdbHOHbojhyfH",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: de
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Wie wichtig ist Freiheit? Bitte verwenden Sie diese Skala. 10 bedeutet 'sehr wichtig' und 1 bedeutet 'überhaupt nicht wichtig'. Antworten Sie nur mit einer Zahl (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Wie wichtig ist Freiheit? Bitte verwenden Sie diese Skala. 10 bedeutet 'sehr wichtig' und 1 bedeutet 'überhaupt nicht wichtig'. Antworten Sie nur mit einer Zahl (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGx7KfZX8rVQCJA2m8v1vOV5WLk",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972207,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 88,
+    "total_tokens": 90,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:07.843598",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Wie wichtig ist Freiheit? Bitte verwenden Sie diese Skala. 10 bedeutet 'sehr wichtig' und 1 bedeutet 'überhaupt nicht wichtig'. Antworten Sie nur mit einer Zahl (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "de",
+    "response_id": "chatcmpl-BNdGx7KfZX8rVQCJA2m8v1vOV5WLk",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ko
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: 자유는 얼마나 중요합니까? 이 척도를 사용해 주세요. 10은 '매우 중요함', 1은 '전혀 중요하지 않음'을 의미합니다. 숫자(1-10)로만 답변해 주세요.
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "자유는 얼마나 중요합니까? 이 척도를 사용해 주세요. 10은 '매우 중요함', 1은 '전혀 중요하지 않음'을 의미합니다. 숫자(1-10)로만 답변해 주세요."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdGz2WRyHCVc0yn5W7ta1mMX8p3o",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972209,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 101,
+    "total_tokens": 103,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:09.380027",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "자유는 얼마나 중요합니까? 이 척도를 사용해 주세요. 10은 '매우 중요함', 1은 '전혀 중요하지 않음'을 의미합니다. 숫자(1-10)로만 답변해 주세요.",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ko",
+    "response_id": "chatcmpl-BNdGz2WRyHCVc0yn5W7ta1mMX8p3o",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: id
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Seberapa penting kebebasan? Silakan gunakan skala ini. 10 berarti 'sangat penting' dan 1 berarti 'sama sekali tidak penting'. Jawab hanya dengan angka (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Seberapa penting kebebasan? Silakan gunakan skala ini. 10 berarti 'sangat penting' dan 1 berarti 'sama sekali tidak penting'. Jawab hanya dengan angka (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdH02QvBS0fCzhnNrMePYUVosO3B",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972210,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 90,
+    "total_tokens": 92,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:11.020191",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Seberapa penting kebebasan? Silakan gunakan skala ini. 10 berarti 'sangat penting' dan 1 berarti 'sama sekali tidak penting'. Jawab hanya dengan angka (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "id",
+    "response_id": "chatcmpl-BNdH02QvBS0fCzhnNrMePYUVosO3B",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: tr
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Özgürlük ne kadar önemli? Lütfen bu ölçeği kullanın. 10 'çok önemli', 1 'hiç önemli değil' anlamına gelir. Sadece bir sayı (1-10) ile yanıt verin.
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Özgürlük ne kadar önemli? Lütfen bu ölçeği kullanın. 10 'çok önemli', 1 'hiç önemli değil' anlamına gelir. Sadece bir sayı (1-10) ile yanıt verin."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdH2VyGGcrUjWcbDUAcGi7cW1D7A",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972212,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 97,
+    "total_tokens": 99,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:12.559652",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Özgürlük ne kadar önemli? Lütfen bu ölçeği kullanın. 10 'çok önemli', 1 'hiç önemli değil' anlamına gelir. Sadece bir sayı (1-10) ile yanıt verin.",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "tr",
+    "response_id": "chatcmpl-BNdH2VyGGcrUjWcbDUAcGi7cW1D7A",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: sw
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Uhuru ni muhimu kiasi gani? Tafadhali tumia kiwango hiki. 10 inamaanisha 'muhimu sana' na 1 inamaanisha 'haijawahi kuwa muhimu kabisa'. Jibu kwa namba moja tu (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Uhuru ni muhimu kiasi gani? Tafadhali tumia kiwango hiki. 10 inamaanisha 'muhimu sana' na 1 inamaanisha 'haijawahi kuwa muhimu kabisa'. Jibu kwa namba moja tu (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdH4bXsa4zEkbi8uUIvkjfTVUxbw",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972214,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 100,
+    "total_tokens": 102,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:14.197598",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Uhuru ni muhimu kiasi gani? Tafadhali tumia kiwango hiki. 10 inamaanisha 'muhimu sana' na 1 inamaanisha 'haijawahi kuwa muhimu kabisa'. Jibu kwa namba moja tu (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "sw",
+    "response_id": "chatcmpl-BNdH4bXsa4zEkbi8uUIvkjfTVUxbw",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: pl
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Jak ważna jest wolność? Proszę użyć tej skali. 10 oznacza 'bardzo ważne', a 1 oznacza 'wcale nie ważne'. Odpowiedz tylko liczbą (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Jak ważna jest wolność? Proszę użyć tej skali. 10 oznacza 'bardzo ważne', a 1 oznacza 'wcale nie ważne'. Odpowiedz tylko liczbą (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdH5FmRnOfOOt7EgaYug24evWZrX",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972215,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 98,
+    "total_tokens": 100,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:16.960360",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Jak ważna jest wolność? Proszę użyć tej skali. 10 oznacza 'bardzo ważne', a 1 oznacza 'wcale nie ważne'. Odpowiedz tylko liczbą (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "pl",
+    "response_id": "chatcmpl-BNdH5FmRnOfOOt7EgaYug24evWZrX",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: it
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Quanto è importante la libertà? Si prega di utilizzare questa scala. 10 significa 'molto importante' e 1 significa 'per niente importante'. Rispondi solo con un numero (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Quanto è importante la libertà? Si prega di utilizzare questa scala. 10 significa 'molto importante' e 1 significa 'per niente importante'. Rispondi solo con un numero (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdH8WOaGZmPsQT06qiXZsfWxb62a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972218,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 91,
+    "total_tokens": 93,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:19.110421",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Quanto è importante la libertà? Si prega di utilizzare questa scala. 10 significa 'molto importante' e 1 significa 'per niente importante'. Rispondi solo con un numero (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "it",
+    "response_id": "chatcmpl-BNdH8WOaGZmPsQT06qiXZsfWxb62a",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: fa
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: آزادی چقدر مهم است؟ لطفاً از این مقیاس استفاده کنید. 10 به معنای 'بسیار مهم' و 1 به معنای 'اصلاً مهم نیست' است. فقط با یک عدد (1-10) پاسخ دهید.
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "آزادی چقدر مهم است؟ لطفاً از این مقیاس استفاده کنید. 10 به معنای 'بسیار مهم' و 1 به معنای 'اصلاً مهم نیست' است. فقط با یک عدد (1-10) پاسخ دهید."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHAsoXNTnDKewCRUXq0ygneHnax",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972220,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 102,
+    "total_tokens": 104,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:20.850301",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "آزادی چقدر مهم است؟ لطفاً از این مقیاس استفاده کنید. 10 به معنای 'بسیار مهم' و 1 به معنای 'اصلاً مهم نیست' است. فقط با یک عدد (1-10) پاسخ دهید.",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "fa",
+    "response_id": "chatcmpl-BNdHAsoXNTnDKewCRUXq0ygneHnax",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: vi
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Tự do quan trọng như thế nào? Vui lòng sử dụng thang điểm này. 10 có nghĩa là 'rất quan trọng' và 1 có nghĩa là 'hoàn toàn không quan trọng'. Chỉ trả lời bằng một số (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Tự do quan trọng như thế nào? Vui lòng sử dụng thang điểm này. 10 có nghĩa là 'rất quan trọng' và 1 có nghĩa là 'hoàn toàn không quan trọng'. Chỉ trả lời bằng một số (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHC3NEC0eCYWf1Kh9vDxXmsBXhf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972222,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 103,
+    "total_tokens": 105,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:23.001966",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Tự do quan trọng như thế nào? Vui lòng sử dụng thang điểm này. 10 có nghĩa là 'rất quan trọng' và 1 có nghĩa là 'hoàn toàn không quan trọng'. Chỉ trả lời bằng một số (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "vi",
+    "response_id": "chatcmpl-BNdHC3NEC0eCYWf1Kh9vDxXmsBXhf",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ur
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: آزادی کتنی اہم ہے؟ براہ کرم اس پیمانے کا استعمال کریں۔ 10 کا مطلب ہے 'بہت اہم' اور 1 کا مطلب ہے 'بالکل بھی اہم نہیں'۔ صرف ایک عدد (1-10) کے ساتھ جواب دیں۔
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "آزادی کتنی اہم ہے؟ براہ کرم اس پیمانے کا استعمال کریں۔ 10 کا مطلب ہے 'بہت اہم' اور 1 کا مطلب ہے 'بالکل بھی اہم نہیں'۔ صرف ایک عدد (1-10) کے ساتھ جواب دیں۔"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHEESgpB73yPx1Bw4zvxgbDH7D8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972224,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 104,
+    "total_tokens": 106,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:24.743480",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "آزادی کتنی اہم ہے؟ براہ کرم اس پیمانے کا استعمال کریں۔ 10 کا مطلب ہے 'بہت اہم' اور 1 کا مطلب ہے 'بالکل بھی اہم نہیں'۔ صرف ایک عدد (1-10) کے ساتھ جواب دیں۔",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ur",
+    "response_id": "chatcmpl-BNdHEESgpB73yPx1Bw4zvxgbDH7D8",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: es
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: ¿Qué tan importante es Dios en tu vida? Por favor, utilice esta escala para indicar. 10 significa 'muy importante' y 1 significa 'nada importante'. Responda solo con un número (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "¿Qué tan importante es Dios en tu vida? Por favor, utilice esta escala para indicar. 10 significa 'muy importante' y 1 significa 'nada importante'. Responda solo con un número (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 5
+Parsed score: 5
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHGQFMlydzosozCSSPaVJVIZxU4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "5",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972226,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 94,
+    "total_tokens": 96,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 5,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:26.787063",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "¿Qué tan importante es Dios en tu vida? Por favor, utilice esta escala para indicar. 10 significa 'muy importante' y 1 significa 'nada importante'. Responda solo con un número (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "es",
+    "response_id": "chatcmpl-BNdHGQFMlydzosozCSSPaVJVIZxU4",
+    "raw_response": "5",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: fr
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Quelle est l'importance de Dieu dans votre vie ? Veuillez utiliser cette échelle pour indiquer. 10 signifie 'très important' et 1 signifie 'pas du tout important'. Répondez uniquement par un nombre (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Quelle est l'importance de Dieu dans votre vie ? Veuillez utiliser cette échelle pour indiquer. 10 signifie 'très important' et 1 signifie 'pas du tout important'. Répondez uniquement par un nombre (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 7
+Parsed score: 7
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHIoq2d6KS2Svuip3aLFQsGubJS",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "7",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972228,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 98,
+    "total_tokens": 100,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 7,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:28.528396",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Quelle est l'importance de Dieu dans votre vie ? Veuillez utiliser cette échelle pour indiquer. 10 signifie 'très important' et 1 signifie 'pas du tout important'. Répondez uniquement par un nombre (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "fr",
+    "response_id": "chatcmpl-BNdHIoq2d6KS2Svuip3aLFQsGubJS",
+    "raw_response": "7",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: zh
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: 你的生活中，上帝有多重要？ 请使用此量表进行评分。10表示'非常重要'，1表示'一点也不重要'。请仅用数字（1-10）回答。
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "你的生活中，上帝有多重要？ 请使用此量表进行评分。10表示'非常重要'，1表示'一点也不重要'。请仅用数字（1-10）回答。"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 5
+Parsed score: 5
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHKVRSY8adfF4odiosOpEQSvgkR",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "5",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972230,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 91,
+    "total_tokens": 93,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 5,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:30.066889",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "你的生活中，上帝有多重要？ 请使用此量表进行评分。10表示'非常重要'，1表示'一点也不重要'。请仅用数字（1-10）回答。",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "zh",
+    "response_id": "chatcmpl-BNdHKVRSY8adfF4odiosOpEQSvgkR",
+    "raw_response": "5",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ar
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: ما مدى أهمية الله في حياتك؟ يرجى استخدام هذا المقياس للإشارة. 10 تعني 'مهم جداً' و 1 تعني 'غير مهم على الإطلاق'. أجب برقم فقط (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "ما مدى أهمية الله في حياتك؟ يرجى استخدام هذا المقياس للإشارة. 10 تعني 'مهم جداً' و 1 تعني 'غير مهم على الإطلاق'. أجب برقم فقط (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHL5KUsoVDnClm3FgL4F5D9ye1P",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972231,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 96,
+    "total_tokens": 98,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:31.703840",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "ما مدى أهمية الله في حياتك؟ يرجى استخدام هذا المقياس للإشارة. 10 تعني 'مهم جداً' و 1 تعني 'غير مهم على الإطلاق'. أجب برقم فقط (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ar",
+    "response_id": "chatcmpl-BNdHL5KUsoVDnClm3FgL4F5D9ye1P",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ru
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Как важен Бог в вашей жизни? Пожалуйста, используйте эту шкалу. 10 означает 'очень важно', а 1 означает 'совсем не важно'. Ответьте только числом (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Как важен Бог в вашей жизни? Пожалуйста, используйте эту шкалу. 10 означает 'очень важно', а 1 означает 'совсем не важно'. Ответьте только числом (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 6
+Parsed score: 6
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHNwywc9B4o7dVSSKm8fw5PUBeY",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "6",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972233,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f7a584cf1f",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 93,
+    "total_tokens": 95,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 6,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:33.139429",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Как важен Бог в вашей жизни? Пожалуйста, используйте эту шкалу. 10 означает 'очень важно', а 1 означает 'совсем не важно'. Ответьте только числом (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ru",
+    "response_id": "chatcmpl-BNdHNwywc9B4o7dVSSKm8fw5PUBeY",
+    "raw_response": "6",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: pt
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Quão importante é Deus na sua vida? Por favor, use esta escala para indicar. 10 significa 'muito importante' e 1 significa 'nada importante'. Responda apenas com um número (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Quão importante é Deus na sua vida? Por favor, use esta escala para indicar. 10 significa 'muito importante' e 1 significa 'nada importante'. Responda apenas com um número (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHOMVelkd0o9Wo0rKZLjr1s3vgA",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972234,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 94,
+    "total_tokens": 96,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:34.739511",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Quão importante é Deus na sua vida? Por favor, use esta escala para indicar. 10 significa 'muito importante' e 1 significa 'nada importante'. Responda apenas com um número (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "pt",
+    "response_id": "chatcmpl-BNdHOMVelkd0o9Wo0rKZLjr1s3vgA",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: hi
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: आपके जीवन में भगवान कितने महत्वपूर्ण हैं? कृपया इस पैमाने का उपयोग करें। 10 का अर्थ है 'बहुत महत्वपूर्ण' और 1 का अर्थ है 'बिल्कुल भी महत्वपूर्ण नहीं'। केवल एक संख्या (1-10) के साथ उत्तर दें।
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "आपके जीवन में भगवान कितने महत्वपूर्ण हैं? कृपया इस पैमाने का उपयोग करें। 10 का अर्थ है 'बहुत महत्वपूर्ण' और 1 का अर्थ है 'बिल्कुल भी महत्वपूर्ण नहीं'। केवल एक संख्या (1-10) के साथ उत्तर दें।"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHQv5snebTD7kqIx0j1VNNB9GUV",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972236,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 106,
+    "total_tokens": 108,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:36.292501",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "आपके जीवन में भगवान कितने महत्वपूर्ण हैं? कृपया इस पैमाने का उपयोग करें। 10 का अर्थ है 'बहुत महत्वपूर्ण' और 1 का अर्थ है 'बिल्कुल भी महत्वपूर्ण नहीं'। केवल एक संख्या (1-10) के साथ उत्तर दें।",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "hi",
+    "response_id": "chatcmpl-BNdHQv5snebTD7kqIx0j1VNNB9GUV",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: bn
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: আপনার জীবনে ভগবান কতটা গুরুত্বপূর্ণ? দয়া করে এই স্কেলটি ব্যবহার করুন। 10 মানে 'খুব গুরুত্বপূর্ণ' এবং 1 মানে 'একেবারেই গুরুত্বপূর্ণ নয়'। শুধুমাত্র একটি সংখ্যা (1-10) দিয়ে উত্তর দিন।
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "আপনার জীবনে ভগবান কতটা গুরুত্বপূর্ণ? দয়া করে এই স্কেলটি ব্যবহার করুন। 10 মানে 'খুব গুরুত্বপূর্ণ' এবং 1 মানে 'একেবারেই গুরুত্বপূর্ণ নয়'। শুধুমাত্র একটি সংখ্যা (1-10) দিয়ে উত্তর দিন।"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 7
+Parsed score: 7
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHRBySigg3sfzhbDa43sfnlTw6Q",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "7",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972237,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f7a584cf1f",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 105,
+    "total_tokens": 107,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 7,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:37.698828",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "আপনার জীবনে ভগবান কতটা গুরুত্বপূর্ণ? দয়া করে এই স্কেলটি ব্যবহার করুন। 10 মানে 'খুব গুরুত্বপূর্ণ' এবং 1 মানে 'একেবারেই গুরুত্বপূর্ণ নয়'। শুধুমাত্র একটি সংখ্যা (1-10) দিয়ে উত্তর দিন।",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "bn",
+    "response_id": "chatcmpl-BNdHRBySigg3sfzhbDa43sfnlTw6Q",
+    "raw_response": "7",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ja
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: あなたの人生において、神様はどれほど重要ですか？ この尺度を使用してください。10は「非常に重要」、1は「全く重要でない」を意味します。数字（1-10）のみで回答してください。
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "あなたの人生において、神様はどれほど重要ですか？ この尺度を使用してください。10は「非常に重要」、1は「全く重要でない」を意味します。数字（1-10）のみで回答してください。"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 5
+Parsed score: 5
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHTVz5huoK6CghiFbhCsAf74o4P",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "5",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972239,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 100,
+    "total_tokens": 102,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 5,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:39.282582",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "あなたの人生において、神様はどれほど重要ですか？ この尺度を使用してください。10は「非常に重要」、1は「全く重要でない」を意味します。数字（1-10）のみで回答してください。",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ja",
+    "response_id": "chatcmpl-BNdHTVz5huoK6CghiFbhCsAf74o4P",
+    "raw_response": "5",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: de
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Wie wichtig ist Gott in Ihrem Leben? Bitte verwenden Sie diese Skala. 10 bedeutet 'sehr wichtig' und 1 bedeutet 'überhaupt nicht wichtig'. Antworten Sie nur mit einer Zahl (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Wie wichtig ist Gott in Ihrem Leben? Bitte verwenden Sie diese Skala. 10 bedeutet 'sehr wichtig' und 1 bedeutet 'überhaupt nicht wichtig'. Antworten Sie nur mit einer Zahl (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 5
+Parsed score: 5
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHUhfqEYg0tvpYukC1GoYlwRFEn",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "5",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972240,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 91,
+    "total_tokens": 93,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 5,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:40.836263",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Wie wichtig ist Gott in Ihrem Leben? Bitte verwenden Sie diese Skala. 10 bedeutet 'sehr wichtig' und 1 bedeutet 'überhaupt nicht wichtig'. Antworten Sie nur mit einer Zahl (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "de",
+    "response_id": "chatcmpl-BNdHUhfqEYg0tvpYukC1GoYlwRFEn",
+    "raw_response": "5",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ko
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: 당신의 삶에서 하나님은 얼마나 중요한가요? 이 척도를 사용해 주세요. 10은 '매우 중요함', 1은 '전혀 중요하지 않음'을 의미합니다. 숫자(1-10)로만 답변해 주세요.
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "당신의 삶에서 하나님은 얼마나 중요한가요? 이 척도를 사용해 주세요. 10은 '매우 중요함', 1은 '전혀 중요하지 않음'을 의미합니다. 숫자(1-10)로만 답변해 주세요."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 5
+Parsed score: 5
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHWM8oYyb13Yb1nl29d5Yd3t7ly",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "5",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972242,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 105,
+    "total_tokens": 107,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 5,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:42.351775",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "당신의 삶에서 하나님은 얼마나 중요한가요? 이 척도를 사용해 주세요. 10은 '매우 중요함', 1은 '전혀 중요하지 않음'을 의미합니다. 숫자(1-10)로만 답변해 주세요.",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ko",
+    "response_id": "chatcmpl-BNdHWM8oYyb13Yb1nl29d5Yd3t7ly",
+    "raw_response": "5",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: id
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Seberapa penting Tuhan dalam hidup Anda? Silakan gunakan skala ini. 10 berarti 'sangat penting' dan 1 berarti 'sama sekali tidak penting'. Jawab hanya dengan angka (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Seberapa penting Tuhan dalam hidup Anda? Silakan gunakan skala ini. 10 berarti 'sangat penting' dan 1 berarti 'sama sekali tidak penting'. Jawab hanya dengan angka (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHYHF9ApurCNG6ilMnRFrQcUS8l",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972244,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 91,
+    "total_tokens": 93,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:44.093261",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Seberapa penting Tuhan dalam hidup Anda? Silakan gunakan skala ini. 10 berarti 'sangat penting' dan 1 berarti 'sama sekali tidak penting'. Jawab hanya dengan angka (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "id",
+    "response_id": "chatcmpl-BNdHYHF9ApurCNG6ilMnRFrQcUS8l",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: tr
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Hayatınızdaki Tanrı ne kadar önemli? Lütfen bu ölçeği kullanın. 10 'çok önemli', 1 'hiç önemli değil' anlamına gelir. Sadece bir sayı (1-10) ile yanıt verin.
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Hayatınızdaki Tanrı ne kadar önemli? Lütfen bu ölçeği kullanın. 10 'çok önemli', 1 'hiç önemli değil' anlamına gelir. Sadece bir sayı (1-10) ile yanıt verin."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHZk2LvrsrACqht6Z5cJoScIN3X",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972245,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 100,
+    "total_tokens": 102,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:45.744620",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Hayatınızdaki Tanrı ne kadar önemli? Lütfen bu ölçeği kullanın. 10 'çok önemli', 1 'hiç önemli değil' anlamına gelir. Sadece bir sayı (1-10) ile yanıt verin.",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "tr",
+    "response_id": "chatcmpl-BNdHZk2LvrsrACqht6Z5cJoScIN3X",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: sw
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Ni kiasi gani Mungu ni muhimu katika maisha yako? Tafadhali tumia kiwango hiki. 10 inamaanisha 'muhimu sana' na 1 inamaanisha 'haijawahi kuwa muhimu kabisa'. Jibu kwa namba moja tu (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Ni kiasi gani Mungu ni muhimu katika maisha yako? Tafadhali tumia kiwango hiki. 10 inamaanisha 'muhimu sana' na 1 inamaanisha 'haijawahi kuwa muhimu kabisa'. Jibu kwa namba moja tu (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 8
+Parsed score: 8
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHbB9CaFumnUQTvX4NVGZHCHeCK",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "8",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972247,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 103,
+    "total_tokens": 105,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 8,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:47.296386",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Ni kiasi gani Mungu ni muhimu katika maisha yako? Tafadhali tumia kiwango hiki. 10 inamaanisha 'muhimu sana' na 1 inamaanisha 'haijawahi kuwa muhimu kabisa'. Jibu kwa namba moja tu (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "sw",
+    "response_id": "chatcmpl-BNdHbB9CaFumnUQTvX4NVGZHCHeCK",
+    "raw_response": "8",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: pl
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Jak ważny jest Bóg w twoim życiu? Proszę użyć tej skali. 10 oznacza 'bardzo ważne', a 1 oznacza 'wcale nie ważne'. Odpowiedz tylko liczbą (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Jak ważny jest Bóg w twoim życiu? Proszę użyć tej skali. 10 oznacza 'bardzo ważne', a 1 oznacza 'wcale nie ważne'. Odpowiedz tylko liczbą (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 1
+Parsed score: 1
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHcUO6ffITIh1uMfEd5MxhU2OsI",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "1",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972248,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 103,
+    "total_tokens": 105,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 1,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:48.903842",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Jak ważny jest Bóg w twoim życiu? Proszę użyć tej skali. 10 oznacza 'bardzo ważne', a 1 oznacza 'wcale nie ważne'. Odpowiedz tylko liczbą (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "pl",
+    "response_id": "chatcmpl-BNdHcUO6ffITIh1uMfEd5MxhU2OsI",
+    "raw_response": "1",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: it
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Quanto è importante Dio nella tua vita? Si prega di utilizzare questa scala. 10 significa 'molto importante' e 1 significa 'per niente importante'. Rispondi solo con un numero (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Quanto è importante Dio nella tua vita? Si prega di utilizzare questa scala. 10 significa 'molto importante' e 1 significa 'per niente importante'. Rispondi solo con un numero (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 7
+Parsed score: 7
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHesU65XjrKKKhPigHViyaGP4PY",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "7",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972250,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 92,
+    "total_tokens": 94,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 7,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:50.540857",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Quanto è importante Dio nella tua vita? Si prega di utilizzare questa scala. 10 significa 'molto importante' e 1 significa 'per niente importante'. Rispondi solo con un numero (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "it",
+    "response_id": "chatcmpl-BNdHesU65XjrKKKhPigHViyaGP4PY",
+    "raw_response": "7",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: fa
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: چقدر خدا در زندگی شما مهم است؟ لطفاً از این مقیاس استفاده کنید. 10 به معنای 'بسیار مهم' و 1 به معنای 'اصلاً مهم نیست' است. فقط با یک عدد (1-10) پاسخ دهید.
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "چقدر خدا در زندگی شما مهم است؟ لطفاً از این مقیاس استفاده کنید. 10 به معنای 'بسیار مهم' و 1 به معنای 'اصلاً مهم نیست' است. فقط با یک عدد (1-10) پاسخ دهید."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHgjRcYQvW4qFu7eAkj6QqBem4h",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972252,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 103,
+    "total_tokens": 105,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:52.184440",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "چقدر خدا در زندگی شما مهم است؟ لطفاً از این مقیاس استفاده کنید. 10 به معنای 'بسیار مهم' و 1 به معنای 'اصلاً مهم نیست' است. فقط با یک عدد (1-10) پاسخ دهید.",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "fa",
+    "response_id": "chatcmpl-BNdHgjRcYQvW4qFu7eAkj6QqBem4h",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: vi
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: Thượng Đế quan trọng như thế nào trong cuộc sống của bạn? Vui lòng sử dụng thang điểm này. 10 có nghĩa là 'rất quan trọng' và 1 có nghĩa là 'hoàn toàn không quan trọng'. Chỉ trả lời bằng một số (1-10).
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "Thượng Đế quan trọng như thế nào trong cuộc sống của bạn? Vui lòng sử dụng thang điểm này. 10 có nghĩa là 'rất quan trọng' và 1 có nghĩa là 'hoàn toàn không quan trọng'. Chỉ trả lời bằng một số (1-10)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 5
+Parsed score: 5
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHheEQzGN4OFhSfqtkmxuDXmIG3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "5",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972253,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f5bdcc3276",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 109,
+    "total_tokens": 111,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 5,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:53.720282",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "Thượng Đế quan trọng như thế nào trong cuộc sống của bạn? Vui lòng sử dụng thang điểm này. 10 có nghĩa là 'rất quan trọng' và 1 có nghĩa là 'hoàn toàn không quan trọng'. Chỉ trả lời bằng một số (1-10).",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "vi",
+    "response_id": "chatcmpl-BNdHheEQzGN4OFhSfqtkmxuDXmIG3",
+    "raw_response": "5",
+    "attempts": 1
+  }
+}
+=======================
+
+
+=== OpenAI API Call ===
+Language: ur
+System message: You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.
+User message: آپ کی زندگی میں خدا کتنا اہم ہے؟ براہ کرم اس پیمانے کا استعمال کریں۔ 10 کا مطلب ہے 'بہت اہم' اور 1 کا مطلب ہے 'بالکل بھی اہم نہیں'۔ صرف ایک عدد (1-10) کے ساتھ جواب دیں۔
+
+Request JSON:
+{
+  "model": "gpt-4o-2024-08-06",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary."
+    },
+    {
+      "role": "user",
+      "content": "آپ کی زندگی میں خدا کتنا اہم ہے؟ براہ کرم اس پیمانے کا استعمال کریں۔ 10 کا مطلب ہے 'بہت اہم' اور 1 کا مطلب ہے 'بالکل بھی اہم نہیں'۔ صرف ایک عدد (1-10) کے ساتھ جواب دیں۔"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 3
+}
+=====================
+
+
+=== API Response ===
+Raw response content: 10
+Parsed score: 10
+
+Full response JSON:
+{
+  "id": "chatcmpl-BNdHjAh6OoXvf42K0cCn7viKmYJtJ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "10",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1744972255,
+  "model": "gpt-4o-2024-08-06",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_f7a584cf1f",
+  "usage": {
+    "completion_tokens": 2,
+    "prompt_tokens": 106,
+    "total_tokens": 108,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
+===================
+
+
+=== Stored Score Data ===
+{
+  "score": 10,
+  "metadata": {
+    "timestamp": "2025-04-18T10:30:55.153139",
+    "model": "gpt-4o-2024-08-06",
+    "prompt": "آپ کی زندگی میں خدا کتنا اہم ہے؟ براہ کرم اس پیمانے کا استعمال کریں۔ 10 کا مطلب ہے 'بہت اہم' اور 1 کا مطلب ہے 'بالکل بھی اہم نہیں'۔ صرف ایک عدد (1-10) کے ساتھ جواب دیں۔",
+    "system_message": "You are a respondent in a values survey. Answer the following question with just one number that best represents your view, according to the scale provided. Do not include any extra commentary.",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 3
+    },
+    "language_code": "ur",
+    "response_id": "chatcmpl-BNdHjAh6OoXvf42K0cCn7viKmYJtJ",
+    "raw_response": "10",
+    "attempts": 1
+  }
+}
+=======================
+
