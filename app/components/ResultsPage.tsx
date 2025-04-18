@@ -183,8 +183,8 @@ export default function ResultsPage() {
     setIsGeneratingShare(true);
     setShareError(null);
     try {
-      const text = results.map(r => `${r.text}`).join('\n') + `\n\nI discovered something fascinating about AI! 🤖\n` +
-        `When asked a question in different languages, the AI gave completely different responses.` +
+      const text = results.map(r => `${r.text}`).join(' ') + `\n\nI discovered something fascinating about AI! 🤖 ` +
+        `When asked the same question in different languages, it can give completely different responses.` +
         `\n\nCan you guess how the AI will respond? Try it at https://babel-lm.vercel.app`;
       
       setShareText(text);
