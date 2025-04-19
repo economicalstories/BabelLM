@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { languages, type Language, type LanguageCode } from '../utils/languages';
 import questionsData from '../data/questions.json';
 import translationsData from '../data/translations.json';
+import scoresData from '../data/scores.json';
 import { motion, HTMLMotionProps } from 'framer-motion';
 
 // Add proper type for motion components
@@ -23,6 +24,24 @@ interface TranslationData {
     [languageCode: string]: {
       text: string;
       backTranslation?: string;
+    };
+  };
+}
+
+interface ScoresData {
+  [questionId: string]: {
+    [languageCode: string]: {
+      score: number;
+      metadata: {
+        timestamp: string;
+        model: string;
+        prompt: string;
+        parameters: {
+          temperature: number;
+          max_tokens: number;
+        };
+        language_code: string;
+      };
     };
   };
 }
@@ -72,9 +91,21 @@ export default function TranslatePage() {
         throw new Error('Not enough translations available');
       }
       
-      const selectedLanguages = [...availableLanguages]
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 3);
+      // Function to check if any scores are tied
+      const hasTiedScores = (selectedLangs: typeof availableLanguages) => {
+        const scores = selectedLangs.map(lang => 
+          (scoresData as ScoresData)[questionId][lang.code]?.score || 5
+        );
+        return new Set(scores).size !== scores.length;
+      };
+
+      // Select languages ensuring no tied scores
+      let selectedLanguages;
+      do {
+        selectedLanguages = [...availableLanguages]
+          .sort(() => 0.5 - Math.random())
+          .slice(0, 3);
+      } while (hasTiedScores(selectedLanguages));
 
       // Create translation items
       const translationItems = selectedLanguages.map(lang => ({
